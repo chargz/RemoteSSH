@@ -8,7 +8,7 @@ Copy this into a Raspberry Pi and include starter.sh in your bootup script; Plac
 
 1) Make an account on ngrok.com and on Slack as well.
 2) Save the `auth-token` that you got from ngrok.com.
-3) cd into `RemoteSSH` and execute `./ngrok authtoken <AUTHTOKEN>`
+3) Clone this repository, cd into `RemoteSSH` and execute `./ngrok authtoken <AUTHTOKEN>`
 4) Create an incoming webhook on your Slack account and obtain the URL.
 5) Copy the Slack URL to `starter.sh`, on line 7.
 6) Run `sudo bash starter.sh`. You should get the TCP URL and Port on Slack.
