@@ -1,5 +1,5 @@
 # RemoteSSH
-Starts an ngrok TCP tunnel and notifies you of the URL. Perfect for remote SSH connections.
+Starts an ngrok TCP tunnel and notifies you of the URL. Perfect for automated remote SSH connections.
 
 # Examples:
 Copy this into a Raspberry Pi and include starter.sh in your bootup script; Place the Pi in any remote place, give it an internet connection, and you can SSH into it from home.
