@@ -9,7 +9,7 @@ Copy this into a Raspberry Pi and include starter.sh in your bootup script; Plac
 1) Run `sudo apt-get install gnome-terminal at-spi2-core`
 2) Create an account on ngrok.com and on Slack as well.
 3) Save the `auth-token` that you got from ngrok.com.
-4) Clone this repository to your home directory (`/home/USER/`), cd into `RemoteSSH` and execute `./ngrok authtoken <auth-token>`
+4) Clone this repository to your home directory (`/home/USER/`), cd into `RemoteSSH` and replace `<YOUR AUTHTOKEN>` with the previous auth token in `ngrok.yml`.
 5) Create an incoming webhook on your Slack account and obtain the URL. More here - https://api.slack.com/incoming-webhooks
 6) Copy the Slack URL to `starter.sh`, on line 7.
 7) Run `sudo bash starter.sh`. You should get the TCP URL and Port on Slack.
@@ -18,9 +18,6 @@ Copy this into a Raspberry Pi and include starter.sh in your bootup script; Plac
 
 Run `ssh user@<IP> -p <PORT>` to gain access to the remote device.
 
-
-
-If port 4040 doesn't work, replace with port 4041 and try. This must be done on line 6 of `starter.sh`
 
 Requires Python 2.7 to work. 
 ngrok credits go to Alan Shreve - @inconshreveable.

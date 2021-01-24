@@ -1,0 +1,7 @@
+authtoken: <YOUR AUTHTOKEN>
+console_ui: false
+tunnels:
+  ssh:
+    proto: tcp
+    addr: 22
+    web_addr: localhost:4040
